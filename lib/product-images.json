@@ -1,0 +1,267 @@
+{
+  "million": {
+    "src": "/perfumes/million.jpg",
+    "source": "https://perfumeonline.ca/products/one-million",
+    "title": "Paco Rabanne 1 Million"
+  },
+  "black-opium": {
+    "src": "/perfumes/black-opium.png",
+    "source": "https://perfumeonline.ca/products/ysl-opium-black",
+    "title": "YSL BLACK OPIUM Edp"
+  },
+  "gypsy": {
+    "src": "/perfumes/gypsy.png",
+    "source": "https://perfumeonline.ca/products/gypsy-water",
+    "title": "Gypsy Water"
+  },
+  "good-girl-blush": {
+    "src": "/perfumes/good-girl-blush.png",
+    "source": "https://perfumeonline.ca/products/ch-good-girl-blush",
+    "title": "Carolina Herrera Good Girl Blush"
+  },
+  "my-way-intense": {
+    "src": "/perfumes/my-way-intense.png",
+    "source": "https://perfumeonline.ca/products/armani-my-way-intense",
+    "title": "Armani My Way Intense"
+  },
+  "born-in-roma-intense": {
+    "src": "/perfumes/born-in-roma-intense.webp",
+    "source": "https://perfumeonline.ca/products/valentino-donna-born-in-roma-1",
+    "title": "Valentino Donna Born In Roma Intense"
+  },
+  "born-in-roma-green-stravaganza": {
+    "src": "/perfumes/born-in-roma-green-stravaganza.png",
+    "source": "https://perfumeonline.ca/products/born-in-roma-stravaganza-edp",
+    "title": "Born In Roma Green Stravaganza Edp"
+  },
+  "paradoxe": {
+    "src": "/perfumes/paradoxe.jpg",
+    "source": "https://perfumeonline.ca/products/prada-paradoxe",
+    "title": "Prada Paradoxe"
+  },
+  "paradoxe-intense": {
+    "src": "/perfumes/paradoxe-intense.png",
+    "source": "https://perfumeonline.ca/products/prada-paradoxe-intense",
+    "title": "Prada Paradoxe Intense"
+  },
+  "paradoxe-virtual-flower": {
+    "src": "/perfumes/paradoxe-virtual-flower.png",
+    "source": "https://perfumeonline.ca/products/paradoxe-virtual-flower",
+    "title": "Paradoxe Virtual Flower"
+  },
+  "flora-gorgeous-gardenia": {
+    "src": "/perfumes/flora-gorgeous-gardenia.png",
+    "source": "https://perfumeonline.ca/products/gucci-flora-gorgeous-gardenia-edp",
+    "title": "Gucci Flora Gorgeous Gardenia Edp"
+  },
+  "flora-gorgeous-magnolia": {
+    "src": "/perfumes/flora-gorgeous-magnolia.png",
+    "source": "https://perfumeonline.ca/products/gucci-flora-gorgeous-magnolia",
+    "title": "Gucci Flora Gorgeous Magnolia"
+  },
+  "bright-crystal": {
+    "src": "/perfumes/bright-crystal.png",
+    "source": "https://perfumeonline.ca/products/versace-bright-crystal",
+    "title": "VERSACE BRIGHT CRYSTAL"
+  },
+  "dylan-purple": {
+    "src": "/perfumes/dylan-purple.jpg",
+    "source": "https://perfumeonline.ca/products/versace-dylan-purple",
+    "title": "Versace Dylan Purple"
+  },
+  "dylan-blue-pour-femme": {
+    "src": "/perfumes/dylan-blue-pour-femme.jpg",
+    "source": "https://perfumeonline.ca/products/versace-dylan-blue-1",
+    "title": "Versace Dylan Blue"
+  },
+  "men-jean-paul-gaultier-le-male-elixir": {
+    "src": "/perfumes/men-jean-paul-gaultier-le-male-elixir.png",
+    "source": "https://perfumeonline.ca/products/jean-paul-gaultier-le-male-elixir",
+    "title": "Jean Paul Gaultier Le Male Elixir"
+  },
+  "men-jean-paul-gaultier-le-beau-le-parfum": {
+    "src": "/perfumes/men-jean-paul-gaultier-le-beau-le-parfum.jpg",
+    "source": "https://perfumeonline.ca/products/jean-paul-gaultier-le-beau-le-parfum-2022",
+    "title": "Jean Paul Gaultier Le Beau Le Parfum Intense"
+  },
+  "men-jean-paul-gaultier-le-beau-paradise-garden": {
+    "src": "/perfumes/men-jean-paul-gaultier-le-beau-paradise-garden.jpg",
+    "source": "https://perfumeonline.ca/products/jean-paul-gaultier-le-beau-paradise-garden",
+    "title": "Jean Paul Gaultier Le Beau Paradise Garden"
+  },
+  "men-jean-paul-gaultier-scandal-pour-homme-le-parfum": {
+    "src": "/perfumes/men-jean-paul-gaultier-scandal-pour-homme-le-parfum.jpg",
+    "source": "https://perfumeonline.ca/products/scandal-him-le-parfum-intense",
+    "title": "Jean Paul Gaultier Scandal Him Le Parfum Intense"
+  },
+  "men-dolce-gabbana-k-parfum": {
+    "src": "/perfumes/men-dolce-gabbana-k-parfum.jpg",
+    "source": "https://perfumeonline.ca/products/k-parfum",
+    "title": "Dolce & Gabbana King Parfum"
+  },
+  "men-carolina-herrera-bad-boy-cobalt-edp": {
+    "src": "/perfumes/men-carolina-herrera-bad-boy-cobalt-edp.png",
+    "source": "https://perfumeonline.ca/products/bad-boy-cobalt",
+    "title": "Carolina Herrera Bad Boy Cobalt"
+  },
+  "men-carolina-herrera-bad-boy-extreme": {
+    "src": "/perfumes/men-carolina-herrera-bad-boy-extreme.png",
+    "source": "https://perfumeonline.ca/products/bad-boy-extreme",
+    "title": "Carolina Herrera Bad Boy Extreme"
+  },
+  "men-carolina-herrera-bad-boy-le-parfum": {
+    "src": "/perfumes/men-carolina-herrera-bad-boy-le-parfum.png",
+    "source": "https://perfumeonline.ca/products/ch-bad-boy-le-parfum",
+    "title": "Carolina Herrera Bad Boy Le Parfum"
+  },
+  "men-carolina-herrera-bad-boy-elixir": {
+    "src": "/perfumes/men-carolina-herrera-bad-boy-elixir.png",
+    "source": "https://perfumeonline.ca/products/bad-boy-elixir",
+    "title": "Carolina Herrara Bad Boy Elixir"
+  },
+  "men-odyssey-mandarin-sky": {
+    "src": "/perfumes/men-odyssey-mandarin-sky.png",
+    "source": "https://perfumeonline.ca/products/armaf-odyssey-mandarin",
+    "title": "Armaf Odyssey Mandarin Sky"
+  },
+  "men-odyssey-aqua": {
+    "src": "/perfumes/men-odyssey-aqua.png",
+    "source": "https://perfumeonline.ca/products/armaf-odyssey-aqua",
+    "title": "Armaf Odyssey Aqua"
+  },
+  "men-odyssey-mega": {
+    "src": "/perfumes/men-odyssey-mega.png",
+    "source": "https://perfumeonline.ca/products/armaf-odyssey-mega",
+    "title": "Armaf Odyssey Mega"
+  },
+  "men-odyssey-wild-one": {
+    "src": "/perfumes/men-odyssey-wild-one.png",
+    "source": "https://perfumeonline.ca/products/armaf-odyssey-wild-one-gold-edition",
+    "title": "Armaf Odyssey Wild One Gold Edition"
+  },
+  "men-paco-rabanne-one-million-elixir": {
+    "src": "/perfumes/men-paco-rabanne-one-million-elixir.png",
+    "source": "https://perfumeonline.ca/products/paco-rabanne-1-million-elixir",
+    "title": "Paco Rabanne 1 Million Elixir Intense"
+  },
+  "men-paco-rabanne-invictus-victory-elixir": {
+    "src": "/perfumes/men-paco-rabanne-invictus-victory-elixir.jpg",
+    "source": "https://perfumeonline.ca/products/paco-rabanne-invictus-victory-elixir",
+    "title": "Paco Rabanne Invictus Victory Elixir Intense"
+  },
+  "men-paco-rabanne-phantom-parfum": {
+    "src": "/perfumes/men-paco-rabanne-phantom-parfum.png",
+    "source": "https://perfumeonline.ca/products/pr-phantom-le-parfum",
+    "title": "Paco Rabanne Phantom Parfum"
+  },
+  "men-paco-rabanne-invictus-parfum": {
+    "src": "/perfumes/men-paco-rabanne-invictus-parfum.png",
+    "source": "https://perfumeonline.ca/products/invictus-parfum",
+    "title": "Paco Rabanne Invictus Parfum"
+  },
+  "men-dior-homme": {
+    "src": "/perfumes/men-dior-homme.png",
+    "source": "https://perfumeonline.ca/products/dior-homme",
+    "title": "Dior Homme"
+  },
+  "men-dior-sauvage-edp": {
+    "src": "/perfumes/men-dior-sauvage-edp.png",
+    "source": "https://perfumeonline.ca/products/dior-sauvage",
+    "title": "Dior Sauvage Edp"
+  },
+  "men-dior-homme-parfum": {
+    "src": "/perfumes/men-dior-homme-parfum.png",
+    "source": "https://perfumeonline.ca/products/dior-homme-parfum",
+    "title": "Dior Homme Parfum"
+  },
+  "men-giorgio-armani-stronger-with-you-absolutely": {
+    "src": "/perfumes/men-giorgio-armani-stronger-with-you-absolutely.png",
+    "source": "https://perfumeonline.ca/products/stronger-with-you-absolutely",
+    "title": "Stronger With You Absolutely"
+  },
+  "men-giorgio-armani-armani-code-parfum": {
+    "src": "/perfumes/men-giorgio-armani-armani-code-parfum.png",
+    "source": "https://perfumeonline.ca/products/armani-code-le-parfum",
+    "title": "Armani Code Parfum"
+  },
+  "men-giorgio-armani-acqua-di-gio-parfum": {
+    "src": "/perfumes/men-giorgio-armani-acqua-di-gio-parfum.png",
+    "source": "https://perfumeonline.ca/products/armani-acqua-di-gio-parfum",
+    "title": "Armani Acqua Di Gio Parfum"
+  },
+  "men-giorgio-armani-armani-code-edp": {
+    "src": "/perfumes/men-giorgio-armani-armani-code-edp.png",
+    "source": "https://perfumeonline.ca/products/armani-code-edp",
+    "title": "Armani Code Edp"
+  },
+  "men-arabes-afnan-9pm": {
+    "src": "/perfumes/men-arabes-afnan-9pm.png",
+    "source": "https://perfumeonline.ca/products/afnan-9-pm",
+    "title": "Afnan 9PM"
+  },
+  "men-arabes-afnan-supremacy-not-only-intense": {
+    "src": "/perfumes/men-arabes-afnan-supremacy-not-only-intense.png",
+    "source": "https://perfumeonline.ca/products/afnan-supermacy-not-only-intense-luxury-collection",
+    "title": "Afnan Supremacy Not Only Intense"
+  },
+  "men-arabes-lattafa-asad": {
+    "src": "/perfumes/men-arabes-lattafa-asad.png",
+    "source": "https://perfumeonline.ca/products/lattafa-asad",
+    "title": "Lattafa Asad"
+  },
+  "men-arabes-lattafa-maahir-legacy": {
+    "src": "/perfumes/men-arabes-lattafa-maahir-legacy.png",
+    "source": "https://perfumeonline.ca/products/bf23-maahir-legacy",
+    "title": "Maahir Legacy"
+  },
+  "men-arabes-afnan-turathi-blue": {
+    "src": "/perfumes/men-arabes-afnan-turathi-blue.png",
+    "source": "https://perfumeonline.ca/products/afnan-turathi-blue",
+    "title": "Afnan Turathi Blue"
+  },
+  "men-valentino-uomo-born-in-roma-intense": {
+    "src": "/perfumes/men-valentino-uomo-born-in-roma-intense.png",
+    "source": "https://perfumeonline.ca/products/valentino-uomo-born-in-roma-intense",
+    "title": "Valentino Uomo Born In Roma Intense"
+  },
+  "men-valentino-uomo-born-in-roma-coral-fantasy": {
+    "src": "/perfumes/men-valentino-uomo-born-in-roma-coral-fantasy.png",
+    "source": "https://perfumeonline.ca/products/valentino-born-in-roma-coral-fantasy",
+    "title": "Valentino Uomo Born In Roma Coral Fantasy"
+  },
+  "men-valentino-uomo-yellow-dream": {
+    "src": "/perfumes/men-valentino-uomo-yellow-dream.png",
+    "source": "https://perfumeonline.ca/products/valentino-uomo-born-in-roma-yellow-dream",
+    "title": "Valentino Uomo Born In Roma Yellow Dream"
+  },
+  "men-azzaro-the-most-wanted-parfum": {
+    "src": "/perfumes/men-azzaro-the-most-wanted-parfum.png",
+    "source": "https://perfumeonline.ca/products/azzaro-most-wanted-parfum",
+    "title": "Azzaro The Most Wanted PARFUM"
+  },
+  "men-prada-luna-rossa-black": {
+    "src": "/perfumes/men-prada-luna-rossa-black.jpg",
+    "source": "https://perfumeonline.ca/products/prada-luna-rossa-black",
+    "title": "PRADA LUNA ROSSA BLACK"
+  },
+  "men-prada-luna-rossa-ocean-edp": {
+    "src": "/perfumes/men-prada-luna-rossa-ocean-edp.jpg",
+    "source": "https://perfumeonline.ca/products/prada-luna-rossa-ocean-edp",
+    "title": "Prada Luna Rossa Ocean Edp"
+  },
+  "men-montblanc-explorer": {
+    "src": "/perfumes/men-montblanc-explorer.png",
+    "source": "https://perfumeonline.ca/products/mont-blanc-explorer",
+    "title": "Mont Blanc Explorer"
+  },
+  "men-montblanc-explorer-platinum": {
+    "src": "/perfumes/men-montblanc-explorer-platinum.png",
+    "source": "https://perfumeonline.ca/products/montblanc-explorer-platinum-parfum",
+    "title": "Montblanc Explorer Platinum"
+  },
+  "good-girl": {
+    "src": "/perfumes/good-girl.jpg",
+    "source": "https://cr.faces.com/perfume-carolina-herrera-mujer-good-girl-edp-bche00177/p",
+    "title": "Good Girl Eau de Parfum 80 ml"
+  }
+}
