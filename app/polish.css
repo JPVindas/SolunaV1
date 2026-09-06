@@ -30,3 +30,17 @@
 @keyframes mini-spray{0%{opacity:0;transform:scale(.35)}28%{opacity:1}100%{opacity:0;transform:scale(1.12) translate(3px,-1px)}}
 @keyframes mini-orbit-spin{to{transform:rotate(360deg)}}
 @media(prefers-reduced-motion:reduce){.mini-perfume-intro{display:none!important}}
+/* Preserve the entire bottle instead of cropping a 16:9 image to the banner. */
+.cinematic-hero .hero-bg{position:absolute;right:0;top:12px;width:auto;max-width:none;height:calc(100% - 24px);object-fit:contain;object-position:right center;transform:none!important;transition:none;mask-image:linear-gradient(90deg,transparent,#000 18%)}
+.cinematic-hero .hero-photo{top:12px;right:0;bottom:auto;width:auto;height:calc(100% - 24px);aspect-ratio:650/282!important;opacity:1;mask-image:linear-gradient(90deg,transparent,#000 22%)}
+.category-art{display:flex;align-items:center}.category-art>.photo{flex-shrink:0;width:100%;min-height:0;max-height:100%}.refined-category:hover .category-art{transform:none}
+.brand-ribbon{position:relative;background:#fafaf8;border-block:1px solid #e8e6e0;padding:31px 0 30px;margin-top:34px;overflow:hidden}
+.brand-ribbon>p{text-align:center;font-size:10px;letter-spacing:2.3px;text-transform:uppercase;color:#8f8c85;margin:0 45px 25px;line-height:1.6}
+.brand-window{overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}
+.brand-track{display:flex;width:max-content;animation:brand-drift 36s linear infinite}.brand-track.is-paused,.brand-ribbon:hover .brand-track,.brand-ribbon:focus-within .brand-track{animation-play-state:paused}
+.brand-group{display:flex;align-items:center;gap:64px;padding-right:64px;flex-shrink:0}.brand-logo{width:160px;height:58px;display:grid;place-items:center}.brand-logo img{width:100%;height:100%;object-fit:contain;filter:grayscale(1);opacity:.43}.brand-logo-dior img{width:110px}.brand-logo-valentino img{width:104px}
+.brand-motion{position:absolute;right:15px;top:22px;border:1px solid #ddd9d0;border-radius:50%;width:28px;height:28px;display:grid;place-items:center;color:#948978;background:transparent}
+@keyframes brand-drift{to{transform:translateX(-50%)}}
+@media(max-width:760px){.cinematic-hero{height:510px}.cinematic-hero .hero-copy{padding-top:35px;margin-left:9%}.cinematic-hero h1{font-size:38px}.cinematic-hero .hero-bg{height:57%;top:auto;bottom:36px;right:-12px}.cinematic-hero .hero-photo{height:52%;top:auto;bottom:36px;right:-12px}.cinematic-hero .hero-shade{background:linear-gradient(180deg,#080b0c 0%,#080b0cbb 27%,transparent 60%)}.cinematic-hero .hero-subtitle{margin-bottom:20px}.cinematic-hero .hero-copy .gold-button{min-height:40px}.brand-ribbon{padding:25px 0;margin-top:25px}.brand-group{gap:38px;padding-right:38px}.brand-logo{width:130px;height:45px}.brand-logo-dior img{width:90px}.brand-logo-valentino img{width:84px}.brand-ribbon>p{font-size:9px;letter-spacing:1.7px}}
+@media(prefers-reduced-motion:reduce){.brand-track{animation:none;width:100%}.brand-group{width:100%;flex-wrap:wrap;justify-content:center;padding:0 24px;gap:25px}.brand-group[aria-hidden=true]{display:none}.brand-motion{display:none}.brand-window{mask-image:none}}
+.brand-group{min-width:100vw;justify-content:space-around}@media(prefers-reduced-motion:reduce){.brand-group{min-width:0}}

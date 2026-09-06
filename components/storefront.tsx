@@ -9,6 +9,7 @@ import {RadioGroup,RadioGroupItem} from '@/components/ui/radio-group';
 import {useCart} from '@/components/cart-provider';
 import {useLanguage} from '@/components/language-provider';
 import {SolunaFooter} from '@/components/soluna-footer';
+import {BrandCarousel} from '@/components/brand-carousel';
 import {CatalogFilters} from '@/components/catalog-filters';
 import {products,womenBrands,menGroups,money,filterProducts,updateCart,type Product} from '@/lib/catalog';
 import {applyFilters,concentrationOf,filterCount,emptyFilters,type Filters} from '@/lib/catalog-filters';
@@ -83,6 +84,7 @@ export default function Storefront({collection}:{collection?:string}){
  {grouped&&<div className="brand-links" aria-label={t('Ir a una marca','Jump to a brand')}>{groups.map((g,i)=>groupItems(g.brand).length?<a key={g.brand} href={`#marca-${i}`}>{g.brand==='Árabes'?t('Árabes','Arabian fragrances'):g.brand}</a>:null)}</div>}
  <div className={allCatalog?'catalog-layout':'catalog-results-wrap'}>{allCatalog&&<aside className="desktop-filters"><CatalogFilters filters={filters} onChange={setFilters}/></aside>}<div className="catalog-results">{grouped?groups.map((g,i)=>{const items=groupItems(g.brand);return items.length?<section className="brand-section" id={`marca-${i}`} key={g.brand}><header><span>{String(i+1).padStart(2,'0')}</span><h3>{g.brand==='Árabes'?t('Árabes','Arabian fragrances'):g.brand}</h3><small>{items.length} {t('fragancias','fragrances')}</small></header><div className="product-grid brand-products">{items.map(renderProduct)}</div></section>:null}):<div className={`product-grid ${allCatalog?'filtered-products':''}`}>{selected.map(renderProduct)}</div>}{selected.length===0&&<div className="empty-state"><Search/><h3>{t('No encontramos esa fragancia','No fragrances found')}</h3><p>{t('Prueba con otra marca o ajusta los filtros.','Try another brand or adjust your filters.')}</p><button className="gold-button" onClick={()=>{setQuery('');setFilters(emptyFilters())}}>{t('Limpiar búsqueda y filtros','Clear search and filters')}</button></div>}</div></div>
  </section>
+ {!collection&&<BrandCarousel/>}
  <section className="contact-strip"><MessageCircle className="contact-icon"/><div><p>{t('¿Dudas o consultas?','Need a little guidance?')}</p><h2>{t('Tu próxima fragancia empieza aquí.','Your next fragrance starts here.')}</h2><span>{t('Te ayudamos a encontrar un aroma que se sienta tuyo.','Let us help you find a scent that feels like you.')}</span></div><a className="gold-button" href={contactUrl} target="_blank" rel="noopener noreferrer">{t('Escribir por WhatsApp','Chat on WhatsApp')}<ArrowUpRight size={15}/></a></section>
  <SolunaFooter/>
  <a className="floating-whatsapp" href={contactUrl} target="_blank" rel="noopener noreferrer" aria-label={t('Consultar o comprar por WhatsApp','Ask or shop on WhatsApp')}><MessageCircle/></a>
