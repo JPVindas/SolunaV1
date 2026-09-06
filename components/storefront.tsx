@@ -20,7 +20,7 @@ function Photo({x,y,w,h,label,className=''}:{x?:number;y:number;w:number;h:numbe
  if(x===undefined)return <div className="perfume-identity"><span>SOLUNA</span><i aria-hidden="true"/><strong>{label}</strong><small>{t('FOTO POR CONFIRMAR','PHOTO TO BE CONFIRMED')}</small></div>;
  return <div className={`photo ${className}`} role="img" aria-label={label} style={{aspectRatio:`${w}/${h}`,'--photo-ratio':`${w}/${h}`} as CSSProperties}><img src="/soluna-reference.png" alt="" draggable={false} style={{width:`${1222/w*100}%`,maxWidth:'none',left:`${-x/w*100}%`,top:`${-y/h*100}%`}}/></div>;
 }
-function ProductPhoto({product}:{product:Product}){const image=(productImages as Record<string,{src:string}>)[product.id];return image?<div className="product-image"><img src={image.src} alt={product.name} loading="lazy"/></div>:<Photo x={product.x} y={product.y??883} w={164} h={product.y?183:164} label={product.name}/>}
+function ProductPhoto({product}:{product:Product}){const image=(productImages as Record<string,{src:string}>)[product.id];return image?<div className="product-image"><img src={image.src} alt={product.name} loading="lazy" decoding="async"/></div>:<Photo x={product.x} y={product.y??883} w={164} h={product.y?183:164} label={product.name}/>}
 const paths:Record<string,string>={Hombre:'/hombre',Mujer:'/mujer',Unisex:'/unisex',Todos:'/perfumes','Más vendidos':'/mas-vendidos',Nuevos:'/nuevos'};
 const whatsapp=(text:string)=>'https://wa.me/50686190302?text='+encodeURIComponent(text);
 
