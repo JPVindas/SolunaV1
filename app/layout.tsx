@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import './polish.css';
+import './catalog.css';
+import './collections.css';
 import {LanguageProvider} from '@/components/language-provider';
 import {PerfumeIntro} from '@/components/perfume-intro';
 import {CartProvider} from '@/components/cart-provider';
